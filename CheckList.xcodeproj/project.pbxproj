@@ -12,6 +12,7 @@
 		14B12D6621F8DDF600BCF83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B12D6421F8DDF600BCF83F /* Main.storyboard */; };
 		14B12D6821F8DDF800BCF83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B12D6721F8DDF800BCF83F /* Assets.xcassets */; };
 		14B12D6B21F8DDF800BCF83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B12D6921F8DDF800BCF83F /* LaunchScreen.storyboard */; };
+		14B12D7321F8DE5400BCF83F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B12D7221F8DE5400BCF83F /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		14B12D6721F8DDF800BCF83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B12D6A21F8DDF800BCF83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14B12D6C21F8DDF800BCF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B12D7221F8DE5400BCF83F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				14B12D6021F8DDF600BCF83F /* AppDelegate.swift */,
 				14B12D6221F8DDF600BCF83F /* ViewController.swift */,
+				14B12D7221F8DE5400BCF83F /* CollectionViewCell.swift */,
 				14B12D6421F8DDF600BCF83F /* Main.storyboard */,
 				14B12D6721F8DDF800BCF83F /* Assets.xcassets */,
 				14B12D6921F8DDF800BCF83F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				14B12D6321F8DDF600BCF83F /* ViewController.swift in Sources */,
 				14B12D6121F8DDF600BCF83F /* AppDelegate.swift in Sources */,
+				14B12D7321F8DE5400BCF83F /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
